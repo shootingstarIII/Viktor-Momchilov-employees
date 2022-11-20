@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-spacing: 0;
+  font-size: 1.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  padding: 120px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+[type="file"] {
+  display: none;
+}
+
+label, .reset-btn {
+  margin-top: 30px;
+  align-self: center;
+  padding: 10px 35px;
+  color: #fff;
+  background-color: #111;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-btn:hover, label:hover {
+  background-color: #222;
+}
+
+

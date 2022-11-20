@@ -1,0 +1,23 @@
+section {
+  padding: 120px;
+}
+
+thead {
+  background-color: black;
+  color: #fff;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+td {
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2rem;
+  color: red;
+}
